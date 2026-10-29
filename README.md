@@ -40,7 +40,7 @@ A Chrome extension that shows Markdown (`.md`) files as clean, readable pages.
   - `marked` 18.1.1 turns Markdown into HTML (MIT license).
   - `DOMPurify` 3.4.17 removes unsafe HTML from the result (MPL-2.0 or Apache-2.0).
 - `samples/sample.md`: a test file with every supported feature.
-- `assets/icons/`: the extension icon. `icon.svg` is the source. The PNG files are rendered from it.
+- `assets/icons/`: the extension icon. `icon-source.png` (512 px) is the master. The 16, 48 and 128 px files are resized from it.
 - `store/`: a screenshot for the Chrome Web Store listing.
 - `LICENSE`: MIT license.
 - `PRIVACY.md`: privacy policy.
